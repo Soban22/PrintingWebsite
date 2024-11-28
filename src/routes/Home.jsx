@@ -15,7 +15,7 @@ const Home = () => {
           title="Your Journey Your Story"
           text="Chose Your favourite Design"
           buttonText="Choose Design"
-          url="/product"
+          href="/product"
           btnClass="show"
         />
         <Destination/>
