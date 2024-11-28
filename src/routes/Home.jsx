@@ -22,7 +22,7 @@ const Home = () => {
         <Trip/>
         <div style={{ position: "relative"}}>
   <a
-    Path="/product"
+    href="/product"
     style={{
       position: "absolute",
       top: "50%",
