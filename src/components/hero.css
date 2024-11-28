@@ -1,0 +1,211 @@
+
+/* Base Hero Styles */
+.hero {
+    width: 100%;
+    height: 90vh; /* Full viewport height */
+    position: relative;
+    overflow: hidden; /* Prevent overflow of content */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #000; /* Fallback background color */
+}
+
+/* Carousel Container */
+.hero-carousel {
+    width: 100%;
+    height: 100%; /* Ensure carousel fills the hero container */
+    position: relative;
+}
+
+/* Image Styling */
+.hero-carousel img {
+    width: 100%;          /* Fills the width */
+    height: 100%;         /* Fills the height */
+    object-fit: cover;    /* Crops excess areas to fit proportionally */
+    display: block;       /* Prevents gaps */
+}
+
+
+/* Text Overlay */
+.hero-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 90%; /* Adjust width for better readability */
+    text-align: center;
+    z-index: 2; /* Keep it above carousel */
+}
+
+.hero-text h1{
+    font-size: 3rem;
+    font-weight: 800;
+    background: white;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.hero-text p {
+    font-size: 1.3rem;
+    font-weight: 600;
+    color: white;
+    margin-bottom: 2rem;
+}
+
+.hero-text .show {
+    text-decoration: none;
+    background-color: white;
+    padding: 1rem 2rem;
+    border-radius: 6px;
+    font-size: 1.1rem;
+    font-weight: bold;
+    letter-spacing: 1px;
+    color: #222;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.hero-text .show:hover {
+    background-color: #222;
+    color: white;
+}
+
+/* Hide unnecessary buttons */
+.hero-text .hide {
+    display: none;
+}
+
+/* Slick Carousel Dots */
+.slick-dots {
+    position: absolute;
+    bottom: 10px; /* Position dots at the bottom */
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 3; /* Keep dots visible above carousel */
+}
+
+.slick-dots li button:before {
+    color: white;
+    font-size: 12px;
+    opacity: 0.75;
+}
+
+.slick-dots li.slick-active button:before {
+    color: #ff5733; /* Highlight active dot */
+    opacity: 1;
+}
+
+
+
+/* Media Queries for Small Devices */
+@media screen and (max-width: 768px) {
+    .hero {
+        height: 80vh; /* Reduce height for tablets */
+    }
+
+    .hero-text h1 {
+        font-size: 2.5rem; /* Adjust heading size */
+    }
+
+    .hero-text p {
+        font-size: 1.2rem; /* Adjust paragraph size */
+    }
+
+    .hero-text .show {
+        padding: 0.8rem 1.5rem;
+        font-size: 1rem;
+    }
+}
+
+/* Base Arrow Styles */
+.slick-prev,
+.slick-next {
+    width: 40px;
+    height: 40px;
+    z-index: 3; /* Ensure arrows are above images */
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+    color: white; /* Arrow color */
+    border-radius: 50%; /* Circular arrows */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+/* Left Arrow */
+.slick-prev {
+    left: 10px; /* Position left arrow */
+}
+
+/* Right Arrow */
+.slick-next {
+    right: 10px; /* Position right arrow */
+}
+
+/* Arrow Hover Effect */
+.slick-prev:hover,
+.slick-next:hover {
+    background-color: rgba(0, 0, 0, 0.8); /* Darker on hover */
+}
+
+@media screen and (max-width:968px) {
+    .hero {
+        height: 70vh;
+    }
+
+    .hero-text{
+        padding-top:50px;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .hero {
+        height: 50vh;
+    }
+}
+
+@media screen and (max-width:376px) {
+    .hero {
+        height: 30vh;
+    }
+}
+
+@media screen and (max-width: 555px) {
+    .hero {
+        height: 40vh; /* Reduce height for smaller screens */
+    }
+
+    .hero-carousel img {
+        object-fit: contain; /* Ensure full image visibility */
+        height: auto;
+        max-height: 100vh;
+    }
+
+    .hero-text h1 {
+        padding-top: 50px;
+        font-size: 1.5rem; /* Scale heading */
+    }
+
+    .hero-text p {
+        font-size: .5rem; /* Scale paragraph */
+        margin-bottom: .5rem;
+    }
+
+    .hero-text .show {
+        padding: 0.6rem 1.1rem;
+        border-radius: 4px;
+        font-size: 0.9rem;
+    }
+
+    .slick-dots {
+        bottom: 5px; /* Adjust dot position */
+    }
+
+    .slick-dots li button:before {
+        font-size: 10px; /* Adjust dot size */
+    }
+    .slick-prev,
+    .slick-next {
+        display: none; /* Hide arrows on smaller devices */
+    }
+}
