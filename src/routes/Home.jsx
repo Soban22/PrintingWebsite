@@ -22,7 +22,7 @@ const Home = () => {
         <Trip/>
         <div style={{ position: "relative"}}>
   <a
-    href="https://printing-website-lilac.vercel.app/product"
+    Path="/product"
     style={{
       position: "absolute",
       top: "50%",
