@@ -16,7 +16,7 @@ const Home = () => {
           title="Your Journey Your Story"
           text="Chose Your favourite Design"
           buttonText="Choose Design"
-          href="https://printing-website-lilac.vercel.app/product"
+          href="/product"
           btnClass="show"
         />
         <Destination/>

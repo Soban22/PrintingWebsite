@@ -36,7 +36,7 @@ const Hero = (props) => {
       <div className="hero-text">
         <h1>{props.title}</h1>
         <p>{props.text}</p>
-        <Link href={props.href} className={props.btnClass}>
+        <Link to={props.href} className={props.btnClass}>
           {props.buttonText}
         </Link>
       </div>
