@@ -6,6 +6,16 @@
 }
 
 
+.location{
+    overflow: hidden;
+    height: 0;
+    padding-bottom: 30%;
+    position: relative;
+    padding-top:100px;
+}
+
+
+
 
 .form-container form{
     padding-top: 3rem;
@@ -34,11 +44,22 @@
     display: inline;
 }
 
+@media screen and (max-width:968px){
+    .form-container{
+        flex-direction: column;
+    }
+}
+
 @media screen and (max-width:850px) {
     .form-container{
         margin: 7rem 2rem 2rem;
+        flex-direction: column;
     }
 
+    .location{
+        padding-top: 20px;
+        height: 20%;
+    }
     .form-container form{
         padding-top: 2rem;
         width: 90%;
