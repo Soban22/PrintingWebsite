@@ -4,6 +4,7 @@ import Hero from '../components/Hero'
 import Destination from '../components/Destination'
 import Trip from '../components/Trip'
 import Footer from '../components/Footer'
+import { Link } from 'react-router-dom'
 
 const Home = () => {
   return (
@@ -21,7 +22,7 @@ const Home = () => {
         <Destination/>
         <Trip/>
         <div style={{ position: "relative"}}>
-  <a
+  <Link
     href="/product"
     style={{
       position: "absolute",
@@ -33,7 +34,7 @@ const Home = () => {
     }}
   >
     See More
-  </a>
+  </Link>
 </div>
 
         <Footer/>

@@ -6,6 +6,7 @@ import './hero.css';
 import Image1 from '../assets/134.jpg'
 import Image2 from '../assets/136.jpg'
 import Image3 from '../assets/137.jpg'
+import { Link } from 'react-router-dom';
 
 const Hero = (props) => {
   const settings = {
@@ -35,9 +36,9 @@ const Hero = (props) => {
       <div className="hero-text">
         <h1>{props.title}</h1>
         <p>{props.text}</p>
-        <a href={props.href} className={props.btnClass}>
+        <Link href={props.href} className={props.btnClass}>
           {props.buttonText}
-        </a>
+        </Link>
       </div>
     </div>
   );
