@@ -12,19 +12,13 @@ export const MenuItems=[
         icon:"fa-solid fa-circle-info"
     },
     {
-        title:"Service",
-        url:"/service",
-        cName:"nav-links",
-        icon:"fa-solid fa-briefcase"
-    },
-    {
         title:"Contact",
         url:"/contact",
         cName:"nav-links",
         icon:"fa-solid fa-address-book"
     },
     {
-        title:"Products",
+        title:"Our Services",
         url:"/product",
         cName:"nav-links",
         icon:"fa-solid fa-cart-shopping"
