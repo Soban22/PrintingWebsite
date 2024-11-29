@@ -22,20 +22,20 @@ const Home = () => {
         <Destination/>
         <Trip/>
         <div style={{ position: "relative"}}>
-  <Link
-    href="/product"
-    style={{
-      position: "absolute",
-      top: "50%",
-      left: "50%",
-      transform: "translate(-50%, -170%)",
-      fontSize: "20px",
-      color: "black",
-    }}
-  >
-    See More
-  </Link>
-</div>
+          <Link
+            to={"/product"}
+            style={{
+              position: "absolute",
+              top: "50%",
+              left: "50%",
+              transform: "translate(-50%, -170%)",
+              fontSize: "20px",
+              color: "black",
+            }}
+          >
+            See More
+          </Link>
+        </div>
 
         <Footer/>
     </>
