@@ -13,7 +13,7 @@ const Home = () => {
         <Hero
           cName="hero"
           heroImg=""
-          title="Your Journey Your Story"
+          title="Your Choice Our Designs"
           text="Chose Your favourite Design"
           buttonText="Choose Design"
           href="/product"

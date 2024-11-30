@@ -3,9 +3,9 @@ import Slider from 'react-slick';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 import './hero.css';
-import Image1 from '../assets/134.jpg'
+import Image1 from '../assets/140.jpg'
 import Image2 from '../assets/136.jpg'
-import Image3 from '../assets/137.jpg'
+import Image3 from '../assets/134.jpg'
 import { Link } from 'react-router-dom';
 
 const Hero = (props) => {
