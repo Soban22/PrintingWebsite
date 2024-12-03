@@ -1,13 +1,14 @@
 import React from 'react'
 import './footer.css'
+import footre from '../assets/footre.png'
+import { Link } from 'react-router-dom'
 
 const Footer = () => {
   return (
     <div className='footer'>
         <div className='top'>
             <div>
-                <h1>Trippy</h1>
-                <p>Choose your Favourite Design</p>
+                <img className='footre' src={footre} alt="logo" />
             </div>
 
             <div>
@@ -25,32 +26,16 @@ const Footer = () => {
 
         <div className='bottom'>
             <div>
-                <h4>Project</h4>
-                <a href="/">Changelog</a>
-                <a href="/">Changelog</a>
-                <a href="/">Changelog</a>
-                <a href="/">Changelog</a>
+                <h4><Link to={'/'}>Home</Link></h4>
             </div>
             <div>
-                <h4>Project</h4>
-                <a href="/">Changelog</a>
-                <a href="/">Changelog</a>
-                <a href="/">Changelog</a>
-                <a href="/">Changelog</a>
+                <h4><Link to={'/about'}>About</Link></h4>
             </div>
             <div>
-                <h4>Project</h4>
-                <a href="/">Changelog</a>
-                <a href="/">Changelog</a>
-                <a href="/">Changelog</a>
-                <a href="/">Changelog</a>
+                <h4><Link to={'/contact'}>Contact</Link></h4>
             </div>
             <div>
-                <h4>Project</h4>
-                <a href="/">Changelog</a>
-                <a href="/">Changelog</a>
-                <a href="/">Changelog</a>
-                <a href="/">Changelog</a>
+                <h4><Link to={'/product'}>product</Link></h4>
             </div>
         </div>
     </div>

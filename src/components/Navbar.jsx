@@ -3,7 +3,7 @@ import { MenuItems } from './MenuItems';
 import '@fortawesome/fontawesome-free/css/all.min.css';
 import './navbar.css'
 import { Link } from 'react-router-dom';
-import Logo from '../assets/logo.jpg'
+import footre from '../assets/footre.png'
 
 class Navbar extends Component{
 
@@ -15,7 +15,7 @@ class Navbar extends Component{
         return(
             <nav className='NavbarItems'>
                 <div className='logo'>
-                    <img src={Logo} alt="" />
+                    <img src={footre} alt="" />
                 </div>
  
                 <div className='menu-icons' onClick={this.handleClick}>

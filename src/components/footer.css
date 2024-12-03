@@ -4,6 +4,10 @@
     color: white;
 }
 
+.footre{
+    height: 4rem;
+}
+
 .top{
     display: flex;
     align-items: center;
