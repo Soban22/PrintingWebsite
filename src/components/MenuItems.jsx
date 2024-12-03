@@ -12,15 +12,15 @@ export const MenuItems=[
         icon:"fa-solid fa-circle-info"
     },
     {
+        title:"Our Services",
+        url:"/product",
+        cName:"nav-links",
+        icon:"fa-solid fa-cart-shopping"
+    },
+    {
         title:"Contact",
         url:"/contact",
         cName:"nav-links",
         icon:"fa-solid fa-address-book"
     },
-    {
-        title:"Our Services",
-        url:"/product",
-        cName:"nav-links",
-        icon:"fa-solid fa-cart-shopping"
-    }
 ]

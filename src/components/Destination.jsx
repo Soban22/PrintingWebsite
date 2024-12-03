@@ -1,16 +1,16 @@
 import React from 'react'
 import './destination.css'
-import Mountain1 from "../assets/1.jpg"
-import Mountain2 from "../assets/2.jpg"
-import Mountain3 from "../assets/3.jpg"
-import Mountain4 from "../assets/4.jpg"
+import Mountain1 from "../assets/66.jpg"
+import Mountain2 from "../assets/77.jpg"
+import Mountain3 from "../assets/88.jpg"
+import Mountain4 from "../assets/135.jpg"
 import DestinationData from './DestinationData'
 
 const Destination = () => {
   return (
     <div className='destination'>
-        <h1>Popular Products</h1>
-        <p className='para'>See our Popular products that have very unique designs.</p>
+        <h1>Best Services</h1>
+        <p className='para'>We provide Best Services and Unique Designs to our customers.</p>
 
 
         <DestinationData
