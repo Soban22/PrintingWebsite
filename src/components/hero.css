@@ -8,7 +8,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #000; /* Fallback background color */
+    background-color: #fff; /* Fallback background color */
 }
 
 /* Carousel Container */
@@ -47,10 +47,14 @@
 }
 
 .hero-text p {
-    font-size: 1.3rem;
-    font-weight: 600;
+    font-size: 1rem;
+    font-weight: 400;
     color: white;
+    background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(0,0,0,0.7176120448179272) 0%);
     margin-bottom: 2rem;
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .hero-text .show {
@@ -85,7 +89,7 @@
 }
 
 .slick-dots li button:before {
-    color: white;
+    color: black;
     font-size: 12px;
     opacity: 0.75;
 }
@@ -94,6 +98,8 @@
     color: #ff5733; /* Highlight active dot */
     opacity: 1;
 }
+
+
 
 
 
@@ -160,7 +166,7 @@
 
 @media screen and (max-width:768px) {
     .hero {
-        height: 50vh;
+        height: 40vh;
     }
 }
 
@@ -168,17 +174,16 @@
     .hero {
         height: 30vh;
     }
+    
 }
 
 @media screen and (max-width: 555px) {
     .hero {
-        height: 40vh; /* Reduce height for smaller screens */
+        height: 35vh; /* Reduce height for smaller screens */
     }
 
     .hero-carousel img {
-        object-fit: contain; /* Ensure full image visibility */
-        height: auto;
-        max-height: 100vh;
+        object-fit: cover; /* Ensure full image visibility */
     }
 
     .hero-text h1 {

@@ -14,8 +14,8 @@ const Home = () => {
           cName="hero"
           heroImg=""
           title="Your Choice Our Designs"
-          text="Chose Your favourite Design"
-          buttonText="Choose Design"
+          text="See more of our Services"
+          buttonText="Our Services"
           href="/product"
           btnClass="show"
         />

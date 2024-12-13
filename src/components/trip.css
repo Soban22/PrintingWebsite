@@ -1,6 +1,7 @@
 .trip{
-    margin: 8rem 6rem 4rem;
+    margin: 8rem auto 4rem;
     color: #2a2a2a;
+    max-width: 1080px;
 }
 
 .trip .mainheading{
