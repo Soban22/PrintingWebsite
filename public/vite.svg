@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="500" height="500" viewBox="0 0 200 200">
   <!-- Background Circle -->
-  <circle cx="100" cy="100" r="100" fill="rgb(112, 114, 217)" />
+  <circle cx="100" cy="100" r="100" fill="rgb(4,52,108)" />
   
   <!-- "S" Letter -->
   <text x="50%" y="50%" font-family="Arial, sans-serif" font-size="120" fill="white" text-anchor="middle" alignment-baseline="middle">
