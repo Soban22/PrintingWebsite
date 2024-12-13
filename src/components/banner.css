@@ -1,0 +1,48 @@
+/* Banner.css */
+.banner-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5rem 1rem;
+    background-color: #f8f9fa; /* Light gray background */
+    font-size: 14px;
+    height: 40px; /* Minimal height */
+    border-bottom: 1px solid #ddd;
+    z-index: 999;
+    position: fixed;
+    width: 100%;
+  }
+
+  .banner-left {
+    display: flex; /* Make children align in a row */
+    align-items: center; /* Align numbers vertically in the center */
+    gap: 10px; /* Add space between numbers */
+}
+
+  
+  .banner-left p {
+    margin: 0;
+    margin-right: 15px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .banner-right {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .banner-icon {
+    font-size: 18px;
+    color: #555;
+    cursor: pointer;
+    transition: color 0.3s ease;
+  }
+  
+  .banner-icon:hover {
+    color: #007bff; /* Change to blue on hover */
+  }
+  
+
+  

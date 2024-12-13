@@ -5,10 +5,13 @@ import Destination from '../components/Destination'
 import Trip from '../components/Trip'
 import Footer from '../components/Footer'
 import { Link } from 'react-router-dom'
+import Banner from '../components/Banner'
+
 
 const Home = () => {
   return (
     <>
+        <Banner />
         <Navbar/>
         <Hero
           cName="hero"
