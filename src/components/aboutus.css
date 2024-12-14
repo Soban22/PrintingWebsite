@@ -1,6 +1,7 @@
+
 .about-container{
-    margin: 8rem 6rem 4rem;
-    text-align: start;
+    margin: 8rem auto 4rem;
+    max-width: 1080px;
 }
 
 .about-container h1{

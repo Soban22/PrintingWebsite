@@ -1,48 +1,62 @@
-/* Banner.css */
 .banner-container {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 0.5rem 1rem;
-    background-color: #f8f9fa; /* Light gray background */
-    font-size: 14px;
-    height: 40px; /* Minimal height */
-    border-bottom: 1px solid #ddd;
-    z-index: 999;
-    position: fixed;
-    width: 100%;
-  }
-
-  .banner-left {
-    display: flex; /* Make children align in a row */
-    align-items: center; /* Align numbers vertically in the center */
-    gap: 10px; /* Add space between numbers */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.5rem 1rem;
+  background-color: #0059a9;
+  font-size: 14px;
+  height: 40px;
+  border-bottom: 1px solid #ddd;
+  z-index: 999;
+  position: fixed;
+  width: 100%;
+  top: 0; /* Fix position at the top */
 }
 
-  
-  .banner-left p {
-    margin: 0;
-    margin-right: 15px;
-    font-weight: bold;
-    color: #333;
-  }
-  
-  .banner-right {
-    display: flex;
-    align-items: center;
-    gap: 10px;
-  }
-  
-  .banner-icon {
-    font-size: 18px;
-    color: #555;
-    cursor: pointer;
-    transition: color 0.3s ease;
-  }
-  
-  .banner-icon:hover {
-    color: #007bff; /* Change to blue on hover */
-  }
-  
+.banner-left {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
 
-  
+.banner-left p {
+  margin: 0;
+  font-weight: bold;
+  color: white;
+}
+
+.banner-right {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.banner-icon {
+  font-size: 18px;
+  color: #555;
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+.banner-right a {
+  color: white;
+  font-size: 1.4rem;
+}
+
+.banner-right a:hover {
+  color: #007bff;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .banner-container {
+      flex-direction: row;
+      height: 40px;
+      padding: 0.5rem;
+  }
+  .banner-left,
+  .banner-right {
+      justify-content: center;
+      text-align: center;
+  }
+}

@@ -7,10 +7,11 @@ import Mountain4 from "../assets/24.webp"
 import Mountain5 from "../assets/20.webp"
 import Mountain6 from "../assets/25.webp"
 import DestinationData from './DestinationData'
+import './aboutus.css'
 
 const Destination = () => {
   return (
-    <div className='destination'>
+    <div className='destination about-container'>
         <h1>Print Perfect Every Time</h1>
         <p className='para'>Unlock the power of precision printing with cutting-edge technology and unparalleled quality. Elevate your projects with us.</p>
 

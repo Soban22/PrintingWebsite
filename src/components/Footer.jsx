@@ -27,15 +27,20 @@ const Footer = () => {
         <div className='bottom'>
             <div>
                 <h4><Link to={'/'}>Home</Link></h4>
+                <p>Our Best Services</p>
+                <p>Our Products</p>
             </div>
             <div>
                 <h4><Link to={'/about'}>About</Link></h4>
-            </div>
-            <div>
-                <h4><Link to={'/contact'}>Contact</Link></h4>
+                <p>Who We Are</p>
+                <p>What We Offer</p>
+                <p>Why Choose Us</p>
             </div>
             <div>
                 <h4><Link to={'/product'}>product</Link></h4>
+            </div>
+            <div>
+                <h4><Link to={'/contact'}>Contact</Link></h4>
             </div>
         </div>
     </div>
