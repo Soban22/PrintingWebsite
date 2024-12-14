@@ -180,7 +180,7 @@
 
 @media screen and (max-width: 555px) {
     .hero {
-        height: 35vh; /* Reduce height for smaller screens */
+        height: 40vh; /* Reduce height for smaller screens */
     }
 
     .hero-carousel img {

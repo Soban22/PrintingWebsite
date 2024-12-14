@@ -16,9 +16,8 @@ const Home = () => {
         <Hero
           cName="hero"
           heroImg=""
-          title="Your Choice Our Designs"
-          text="See more of our services"
-          buttonText="Our Services"
+          title=""
+          text=""
           href="/product"
           btnClass="show"
         />
