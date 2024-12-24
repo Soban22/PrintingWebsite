@@ -1,9 +1,15 @@
 import React from 'react'
 import './trip.css'
 import TripData from './TripData'
-import Trip1 from '../assets/101.webp'
-import Trip2 from '../assets/102.webp'
-import Trip3 from '../assets/100.jpg'
+import Trip1 from '../assets/1.jpg'
+import Trip2 from '../assets/2.jpg'
+import Trip3 from '../assets/3.jpg'
+import Trip4 from '../assets/4.jpg'
+import Trip5 from '../assets/5.jpg'
+import Trip6 from '../assets/6.jpg'
+import Trip7 from '../assets/7.jpg'
+import Trip8 from '../assets/8.jpg'
+import Trip9 from '../assets/9.jpg'
 
 const Trip = () => {
   return (
@@ -30,17 +36,17 @@ const Trip = () => {
         </div>
         <div className='tripcard'>
             <TripData
-            image={Trip1}
+            image={Trip4}
             heading="Corrugated Packaging"
             text="Durable and eco-friendly packaging solutions for all your needs."
             />
             <TripData
-            image={Trip2}
+            image={Trip5}
             heading="Posters"
             text="Eye-catching posters designed to captivate and communicate effectively."
             />
             <TripData
-            image={Trip3}
+            image={Trip6}
             heading="Bleach Card, Boxboard"
             text="Premium-grade materials for sturdy and versatile packaging."
             />
@@ -48,17 +54,17 @@ const Trip = () => {
         </div>
         <div className='tripcard'>
             <TripData
-            image={Trip1}
+            image={Trip7}
             heading="Catalogues"
             text="Well-crafted catalogues that showcase your offerings with elegance."
             />
             <TripData
-            image={Trip2}
+            image={Trip8}
             heading="All Types of customized Packaging"
             text=" Tailor-made packaging solutions to meet unique business needs."
             />
             <TripData
-            image={Trip3}
+            image={Trip9}
             heading="Packaging"
             text="Innovative and tailored packaging options for every product type."
             /> 

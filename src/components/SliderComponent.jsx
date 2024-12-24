@@ -4,43 +4,54 @@ import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
 import './slider.css'
 
-import Trip1 from '../assets/101.webp'
-import Trip2 from '../assets/102.webp'
-import Trip3 from '../assets/100.jpg'
+import Trip1 from '../assets/1.jpg'
+import Trip2 from '../assets/2.jpg'
+import Trip3 from '../assets/3.jpg'
+import Trip4 from '../assets/4.jpg'
+import Trip5 from '../assets/5.jpg'
+import Trip6 from '../assets/6.jpg'
+import Trip7 from '../assets/7.jpg'
+import Trip8 from '../assets/8.jpg'
+import Trip9 from '../assets/9.jpg'
 
 
 const data = [
   {
     image: Trip1,
-    title: 'Iphone 5G Phone',
+    title: 'Business Cards',
   },
   {
     image: Trip2,
-    title: 'Samsung 5G Phone',
+    title: 'Office Stationary',
   },
   {
     image: Trip3,
-    title: 'Intel 5G Phone',
+    title: 'Product Photography',
   },
   {
-    image: Trip1,
-    title: 'Poco 5G Phone',
+    image: Trip4,
+    title: 'Corrugated Packaging',
   },
   {
-    image: Trip2,
-    title: 'Techno 5G Phone',
+    image: Trip5,
+    title: 'Posters',
   },
   {
-    image: Trip3,
-    title: 'Intel 5G Phone',
+    image: Trip6,
+    title: 'Bleach Card, Boxboard',
   },
   {
-    image: Trip1,
-    title: 'Poco 5G Phone',
+    image: Trip7,
+    title: 'Catalogues',
   },
   {
-    image: Trip2,
-    title: 'Techno 5G Phone',
+    image: Trip8,
+    title: 'All Types of customized Packaging',
+  }
+  ,
+  {
+    image: Trip9,
+    title: 'Packaging',
   }
 ];
 

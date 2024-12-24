@@ -2,7 +2,7 @@ import React from 'react'
 import './destination.css'
 import Mountain1 from "../assets/66.jpg"
 import Mountain2 from "../assets/77.jpg"
-import Mountain3 from "../assets/88.jpg"
+import Mountain3 from "../assets/136.jpg"
 import Mountain4 from "../assets/135.jpg"
 import DestinationData from './DestinationData'
 

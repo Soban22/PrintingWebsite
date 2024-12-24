@@ -3,7 +3,7 @@ import './destination.css'
 import Mountain1 from "../assets/22.webp"
 import Mountain2 from "../assets/23.webp"
 import Mountain3 from "../assets/21.webp"
-import Mountain4 from "../assets/24.webp"
+import Mountain4 from "../assets/main3.jpg"
 import Mountain5 from "../assets/20.webp"
 import Mountain6 from "../assets/25.webp"
 import DestinationData from './DestinationData'

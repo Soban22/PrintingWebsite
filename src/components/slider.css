@@ -20,6 +20,7 @@
     background-color: white; /* Tailwind 'bg-white' */
     border-radius: 0.5rem; /* Tailwind 'rounded-md' */
     overflow: hidden;
+    padding: 0 5px;
   }
   
   .slider-item img {
@@ -28,6 +29,7 @@
     object-fit: cover; /* Maintain aspect ratio */
     display: block;
     margin: 0 auto;
+    border-radius: 10px;
   }
   
   /* Title container */
@@ -41,12 +43,6 @@
     font-size: 1rem; /* Base font size */
   }
   
-  /* Add spacing between slides */
-  .slick-slide > div {
-    margin: 0 10px;
-  }
-  
-  /* Responsive Styles */
   
   /* Medium screens (Tablets) */
   @media (min-width: 768px) {
