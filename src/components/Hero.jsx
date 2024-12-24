@@ -6,7 +6,6 @@ import './hero.css';
 import Image1 from '../assets/Heading.png'
 import Image2 from '../assets/Packaging.png'
 import Image3 from '../assets/main2.jpg'
-import { Link } from 'react-router-dom';
 
 const Hero = (props) => {
   const settings = {
@@ -33,10 +32,6 @@ const Hero = (props) => {
           <img src={Image3} alt="Slide 3" />
         </div>
       </Slider>
-      <div className="hero-text">
-        <h1>{props.title}</h1>
-        <p>{props.text}</p>
-      </div>
     </div>
   );
 };

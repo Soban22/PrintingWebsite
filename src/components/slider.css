@@ -1,0 +1,92 @@
+/* Background styles */
+.container {
+    padding-bottom: 2.5rem; /* Tailwind 'pb-10' */
+    padding-top: 2.5rem; /* Tailwind 'pt-10' */
+  }
+
+.container h1{
+    text-align: center;
+    padding-bottom: 2.5rem;
+}
+
+  /* Slider container */
+  .slider-wrapper {
+    width: 90%; /* Default for smaller screens */
+    margin: 0 auto; /* Center horizontally */
+  }
+  
+  /* Individual slider item */
+  .slider-item {
+    background-color: white; /* Tailwind 'bg-white' */
+    border-radius: 0.5rem; /* Tailwind 'rounded-md' */
+    overflow: hidden;
+  }
+  
+  .slider-item img {
+    width: 100%; /* Full width by default */
+    height: 15rem; /* Default height */
+    object-fit: cover; /* Maintain aspect ratio */
+    display: block;
+    margin: 0 auto;
+  }
+  
+  /* Title container */
+  .slider-title {
+    padding: 1rem; /* Tailwind 'p-4' */
+    text-align: center; /* Tailwind 'text-center' */
+  }
+  
+  .slider-title p {
+    font-weight: 600; /* Tailwind 'font-semibold' */
+    font-size: 1rem; /* Base font size */
+  }
+  
+  /* Add spacing between slides */
+  .slick-slide > div {
+    margin: 0 10px;
+  }
+  
+  /* Responsive Styles */
+  
+  /* Medium screens (Tablets) */
+  @media (min-width: 768px) {
+    .slider-wrapper {
+      width: 80%; /* Tailwind 'w-4/5' */
+    }
+  
+    .slider-item img {
+      height: 18rem; /* Adjust image height */
+    }
+  
+    .slider-title p {
+      font-size: 1.25rem; /* Tailwind 'text-lg' */
+    }
+  }
+  
+  /* Large screens (Desktops) */
+  @media (min-width: 1024px) {
+    .slider-wrapper {
+      width: 75%; /* Tailwind 'w-3/4' */
+    }
+  
+    .slider-item img {
+      width: 20rem; /* Tailwind 'w-60' */
+      height: 20rem; /* Tailwind 'h-60' */
+    }
+  
+    .slider-title p {
+      font-size: 1.5rem; /* Tailwind 'text-xl' */
+    }
+  }
+  
+  /* Extra-large screens */
+  @media (min-width: 1280px) {
+    .slider-wrapper {
+      width: 70%; /* Tailwind 'w-7/10' */
+    }
+  
+    .slider-item img {
+      height: 22rem; /* Slightly larger images */
+    }
+  }
+  
