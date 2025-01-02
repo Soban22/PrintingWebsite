@@ -41,7 +41,7 @@
     width: 60px;
     height: 60px;
     margin: 0 auto 15px;
-    background-color: #024baa5e;
+    background-color: #024baa34;
     border-radius: 50%;
     display: flex;
     align-items: center;
@@ -49,14 +49,16 @@
     border: 2px solid #024caa;
   }
   
-  .phone-icon::before {
-    content: '📞';
-    font-size: 24px;
+  .fa-phone {
+    color: #024caa;
   }
   
-  .location-icon::before {
-    content: '📍';
-    font-size: 24px;
+  .fa-location-dot{
+    color: #024caa;
+  }
+
+  .Location{
+    margin-bottom: 25px;
   }
   
   h3 {

@@ -2,7 +2,7 @@
 /* Base Hero Styles */
 .hero {
     width: 100%;
-    height: 90vh; /* Full viewport height */
+    height: 100vh; /* Full viewport height */
     position: relative;
     overflow: hidden; /* Prevent overflow of content */
     display: flex;

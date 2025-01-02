@@ -62,8 +62,9 @@ function App() {
     speed: 400,
     slidesToShow: 3,
     autoplay: true,
-    autoplaySpeed: 3000,
+    autoplaySpeed: 2000,
     slidesToScroll: 1,
+    arrows: false,
   };
 
   return (

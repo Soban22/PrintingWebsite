@@ -3,9 +3,9 @@ import Slider from 'react-slick';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 import './hero.css';
-import Image1 from '../assets/Heading.png'
-import Image2 from '../assets/Packaging.png'
-import Image3 from '../assets/main2.jpg'
+import Image1 from '../assets/h1.jpg'
+import Image2 from '../assets/h2.jpg'
+import Image3 from '../assets/h3.jpg'
 
 const Hero = (props) => {
   const settings = {
@@ -15,8 +15,8 @@ const Hero = (props) => {
     slidesToShow: 1,
     slidesToScroll: 1,
     autoplay: true,
-    autoplaySpeed: 3000,
-    arrows: true, 
+    autoplaySpeed: 2500,
+    arrows: false, 
   };
 
   return (

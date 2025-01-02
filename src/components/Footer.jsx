@@ -30,8 +30,8 @@ const Footer = () => {
             </div>
             <div>
                 <h4><Link to={'/'}>Home</Link></h4>
-                <p>Our Best Services</p>
-                <p>Our Products</p>
+                <p>Best Services</p>
+                <p>Products</p>
             </div>
             <div>
                 <h4><Link to={'/about'}>About</Link></h4>
@@ -40,10 +40,17 @@ const Footer = () => {
                 <p>Why Choose Us</p>
             </div>
             <div>
-                <h4><Link to={'/product'}>product</Link></h4>
+                <h4><Link to={'/product'}>Product</Link></h4>
+                <p>Business Cards</p>
+                <p>Office Stationary</p>
+                <p>Corrugated Packaging</p>
+                <p>Product Photography</p>
+                <p>Catalogues</p>
             </div>
             <div>
                 <h4><Link to={'/contact'}>Contact</Link></h4>
+                <p>+92 321 7420007</p>
+                <p>umar_ejaz@yahoo.com</p>
             </div>
         </div>
     </div>
