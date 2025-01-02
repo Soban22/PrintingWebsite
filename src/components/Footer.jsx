@@ -40,12 +40,12 @@ const Footer = () => {
                 <p>Why Choose Us</p>
             </div>
             <div>
-                <h4><Link to={'/product'}>Product</Link></h4>
-                <p>Business Cards</p>
-                <p>Office Stationary</p>
-                <p>Corrugated Packaging</p>
-                <p>Product Photography</p>
-                <p>Catalogues</p>
+                <h4><Link to={'/product'}>Popular Products</Link></h4>
+                <p><Link to={'/product'}>Business Cards</Link></p>
+                <p><Link to={'/product'}>Office Stationary</Link></p>
+                <p><Link to={'/product'}>Product Photography</Link></p>
+                <p><Link to={'/product'}>Posters</Link></p>
+                <p><Link to={'/product'}>See More</Link></p>
             </div>
             <div>
                 <h4><Link to={'/contact'}>Contact</Link></h4>
