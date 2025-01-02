@@ -3,6 +3,7 @@ import Navbar from '../components/Navbar'
 import Footer from '../components/Footer'
 import ContactForm from '../components/ContactForm'
 import Banner from '../components/Banner'
+import Zero from '../components/Zero'
 
 const Contact = () => {
   return (
@@ -11,6 +12,7 @@ const Contact = () => {
         <Navbar/>
         <ContactForm/>
         <Footer/>
+        <Zero/>
     </>
   )
 }

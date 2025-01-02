@@ -41,12 +41,12 @@
     width: 60px;
     height: 60px;
     margin: 0 auto 15px;
-    background-color: #f8d7da;
+    background-color: #024baa5e;
     border-radius: 50%;
     display: flex;
     align-items: center;
     justify-content: center;
-    border: 2px solid #e63946;
+    border: 2px solid #024caa;
   }
   
   .phone-icon::before {

@@ -25,6 +25,9 @@ const Footer = () => {
         </div>
 
         <div className='bottom'>
+            <div className='botomb'>
+                <p>Brothers Packaging is a leader in offering “CUSTOMIZED PREMIUM BOXES and PACKAGING SOLUTION” to well-established businesses and innovative start-ups who want to stand out in this competitive industry.</p>
+            </div>
             <div>
                 <h4><Link to={'/'}>Home</Link></h4>
                 <p>Our Best Services</p>

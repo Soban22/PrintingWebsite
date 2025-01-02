@@ -1,0 +1,16 @@
+
+.Zero {
+    background-color: black;
+    color: white;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .Zero p {
+    margin: 0;
+  }
+  
+  .Zero .highlight  {
+    color: #ffcc00;
+  }
+  

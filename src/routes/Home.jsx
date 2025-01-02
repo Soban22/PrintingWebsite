@@ -6,6 +6,7 @@ import Footer from '../components/Footer'
 import { Link } from 'react-router-dom'
 import Banner from '../components/Banner'
 import SliderComponent from '../components/SliderComponent'
+import Zero from '../components/Zero'
 
 
 const Home = () => {
@@ -21,6 +22,7 @@ const Home = () => {
         <Destination/>
         <SliderComponent/>
         <Footer/>
+        <Zero/>
     </>
   )
 }

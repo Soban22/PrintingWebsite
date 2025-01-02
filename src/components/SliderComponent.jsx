@@ -59,8 +59,10 @@ function App() {
   let settings = {
     dots: false,
     infinite: true,
-    speed: 500,
+    speed: 400,
     slidesToShow: 3,
+    autoplay: true,
+    autoplaySpeed: 3000,
     slidesToScroll: 1,
   };
 

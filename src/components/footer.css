@@ -1,11 +1,15 @@
 .footer{
     padding: 4rem 6rem;
-    background-color: #b5b6bd;
-    color: black;
+    background-color: #091057;
+    color: white;
 }
 
 .footre{
     height: 4rem;
+}
+
+.bottom p{
+    color: white;
 }
 
 .top{
@@ -17,7 +21,7 @@
 }
 
 .top i{
-    color: black;
+    color: white;
     font-size: 2rem;
     margin-left: 1rem;
 }
@@ -44,9 +48,16 @@
     padding: 1rem 0 .8rem 0;
 }
 
+.botomb p{
+    max-width: 300px;
+    font-size: small;
+    margin-right: 30px;
+} 
+
+
 .bottom a{
     text-decoration: none;
-    color: black;
+    color: white;
     padding-bottom: .4rem;
     font-size: 1.1rem;
 }
@@ -63,4 +74,6 @@
     .bottom div{
         width: 50%;
     }
+
+  
 }

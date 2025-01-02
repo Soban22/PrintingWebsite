@@ -41,12 +41,12 @@ const Trip = () => {
             text="Durable and eco-friendly packaging solutions for all your needs."
             />
             <TripData
-            image={Trip5}
+            image={Trip6}
             heading="Posters"
             text="Eye-catching posters designed to captivate and communicate effectively."
             />
             <TripData
-            image={Trip6}
+            image={Trip7}
             heading="Bleach Card, Boxboard"
             text="Premium-grade materials for sturdy and versatile packaging."
             />
@@ -54,7 +54,7 @@ const Trip = () => {
         </div>
         <div className='tripcard'>
             <TripData
-            image={Trip7}
+            image={Trip5}
             heading="Catalogues"
             text="Well-crafted catalogues that showcase your offerings with elegance."
             />

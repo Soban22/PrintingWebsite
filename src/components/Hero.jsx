@@ -16,7 +16,7 @@ const Hero = (props) => {
     slidesToScroll: 1,
     autoplay: true,
     autoplaySpeed: 3000,
-    arrows: true, // Enable navigation arrows
+    arrows: true, 
   };
 
   return (
