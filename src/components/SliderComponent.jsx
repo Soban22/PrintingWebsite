@@ -46,7 +46,7 @@ const data = [
   },
   {
     image: Trip8,
-    title: 'All Types of customized Packaging',
+    title: 'All Types of Packaging',
   }
   ,
   {

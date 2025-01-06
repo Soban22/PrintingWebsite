@@ -7,7 +7,7 @@ const Zero = () => {
   return (
     <div className="Zero">
       <p>
-        <strong>Umar Printing Point © 2025</strong> All Rights Reserved
+        <strong>Umar Graphics © 2025</strong> All Rights Reserved
       </p>
       <p>
         Developed With Love By <Link to={'https://www.infinitestudio.online/'} className="highlight">Infinte Studios</Link>

@@ -35,7 +35,7 @@
     text-align: start;
     display: flex;
     justify-content: space-between;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
 }
 
 .bottom div{
@@ -49,7 +49,7 @@
 }
 
 .botomb p{
-    max-width: 300px;
+    width: 270px;
     font-size: small;
     margin-right: 30px;
 } 
@@ -69,6 +69,10 @@
 
     .footer i{
         margin: 1rem 1rem 0 0;
+    }
+
+    .bottom{
+        flex-direction: column;
     }
 
     .bottom div{

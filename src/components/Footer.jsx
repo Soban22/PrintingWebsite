@@ -26,7 +26,7 @@ const Footer = () => {
 
         <div className='bottom'>
             <div className='botomb'>
-                <p>Umar Printing Point is a leader in offering “CUSTOMIZED PREMIUM BOXES and PACKAGING SOLUTION” to well-established businesses and innovative start-ups who want to stand out in this competitive industry.</p>
+                <p>Umar Graphics is a leader in offering “CUSTOMIZED PREMIUM BOXES and PACKAGING SOLUTION” to well-established businesses and innovative start-ups who want to stand out in this competitive industry.</p>
             </div>
             <div>
                 <h4><Link to={'/'}>Home</Link></h4>
