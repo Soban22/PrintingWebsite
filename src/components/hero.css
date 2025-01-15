@@ -12,6 +12,9 @@
     top: 95px;
 }
 
+.underline{
+    text-decoration: underline;
+}
 
 .hero-carousel {
     width: 100%;

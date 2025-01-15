@@ -29,6 +29,7 @@ const Destination = () => {
             img2={Mountain4}
         />
     </div>
+    
   )
 }
 

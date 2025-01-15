@@ -45,7 +45,7 @@ const Footer = () => {
                 <p><Link to={'/product'}>Office Stationary</Link></p>
                 <p><Link to={'/product'}>Product Photography</Link></p>
                 <p><Link to={'/product'}>Posters</Link></p>
-                <p><Link to={'/product'}>See More</Link></p>
+                <p className='underline'><Link to={'/product'}>See More</Link></p>
             </div>
             <div>
                 <h4><Link to={'/contact'}>Contact</Link></h4>
