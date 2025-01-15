@@ -2,11 +2,18 @@
 .container {
     padding-bottom: 2.5rem; /* Tailwind 'pb-10' */
     padding-top: 2.5rem; /* Tailwind 'pt-10' */
+    
   }
 
 .container h1{
     text-align: center;
-    padding-bottom: 2.5rem;
+    font-size: 3rem;
+}
+
+.container p{
+  text-align: center;
+  font-size: 1rem;
+  padding-bottom: 2.5rem;
 }
 
   /* Slider container */

@@ -59,4 +59,7 @@
       justify-content: center;
       text-align: center;
   }
+  .banner-left p {
+    font-size: 0.65rem;
+  }
 }

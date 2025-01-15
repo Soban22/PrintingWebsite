@@ -58,7 +58,18 @@
   }
 
   .Location{
-    margin-bottom: 25px;
+    font-size: 2.5rem;
+  }
+  
+  .location-line {
+    width: 100%;
+    height: 0.7px;
+    background-color: #b3b3b3;
+    margin: 20px 0;
+  }
+
+  .Paras{
+    margin-bottom: 2.5rem;
   }
   
   h3 {

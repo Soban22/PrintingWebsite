@@ -70,6 +70,7 @@ function App() {
   return (
     <div className='container'>
       <h1>Our Services</h1>
+      <p>Creative, high-quality prints for any occasion.</p>
       <div className='slider-wrapper'>
         <Slider {...settings}>
           {data.map((item, index) => {
