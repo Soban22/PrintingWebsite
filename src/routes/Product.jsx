@@ -8,7 +8,6 @@ import Banner from '../components/Banner'
 const Product = () => {
   return (
     <div>
-        <Banner/>
         <Navbar/>
         <Products/>
         <Footer/>

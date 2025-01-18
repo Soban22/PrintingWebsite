@@ -12,7 +12,6 @@ import Zero from '../components/Zero'
 const Home = () => {
   return (
     <>
-        <Banner />
         <Navbar/>
         <Hero
           cName="hero"

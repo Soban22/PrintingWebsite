@@ -8,7 +8,6 @@ import Zero from '../components/Zero'
 const Contact = () => {
   return (
     <>
-        <Banner/>
         <Navbar/>
         <ContactForm/>
         <Footer/>

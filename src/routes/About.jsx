@@ -9,7 +9,6 @@ import Zero from '../components/Zero'
 const About = () => {
   return (
     <>  
-        <Banner/>
         <Navbar/>
         <AboutUs/>
         <Footer/>
